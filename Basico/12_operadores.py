@@ -1,5 +1,5 @@
-#Operadores aritmeticos
-x= 10
+ #Operadores aritmeticos
+x = 10
 y = 2
 print(x+y)
 print(x-y)

@@ -1,5 +1,5 @@
 frutas = ["manzana", "uva", "fresa", 'pera', 'sandia', 'melon']
-print(frutas[2:5]) #imprime desde la posicion 2 a la 5 incluyendo el 2 pero no el 5
+print(frutas[2:5])  # imprime desde la posicion 2 a la 5 incluyendo el 2 pero no el 5
 print(frutas[0])
 print(len(frutas))
 list1 = ["apple", "banana", "cherry"]
@@ -12,7 +12,7 @@ print(list1[-1]) # imprime el ultimo elemento de la lista
 l1 = list(("a", "b", "c"))  # creación de lista mediante creacion de un objeto
 print(l1[0])
 
-#verificar si un elemento esta en la lista
+# verificar si un elemento esta en la lista
 fruta = "papaya"
 if fruta in frutas:
     print(f"{fruta} si esta en frutas")
@@ -21,25 +21,25 @@ else:
 
 frutas[0] = "cereza" # cambiar valor de un elemento
 print(frutas)
-frutas[2:5] = ["melon", "naranja", "lima"]# cambiar valor en un rango de elementos
+frutas[2:5] = ["melon", "naranja", "lima"] # cambiar valor en un rango de elementos
 print(frutas)
 frutas.append("piña") # add an item to the end of list
 print(frutas)
-frutas.insert(0,"guayaba") # insert item in especific index
+frutas.insert(0, "guayaba") # insert item in especific index
 print(frutas)
 
-#remove items by index or item
+# remove items by index or item
 frutas.remove("melon") # remove the specified item
 print(frutas)
 frutas.pop(0)
 print(frutas) # remove the specified index
-#del frutas[0] # del also removes the specified index
-#print(frutas)
-#del frutas # del all the list
-frutas.clear() #The clear() method empties the list. The list still remains, but it has no content.
+# del frutas[0] # del also removes the specified index
+# print(frutas)
+# del frutas # del all the list
+frutas.clear() # The clear() method empties the list. The list still remains, but it has no content.
 print(frutas)
 
-#Sort the list alphabetically:
+# Sort the list alphabetically:
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort()
 print(thislist)
@@ -56,7 +56,7 @@ mylist = thislist2.copy()
 print(mylist)
 
 
-#Join 2 lists
+# Join 2 lists
 # operator +
 list1 = ["a", "b", "c"]
 list2 = [1, 2, 3]
@@ -64,19 +64,15 @@ list2 = [1, 2, 3]
 list3 = list1 + list2
 print(list3)
 
-#append
+# append
 for x in list2:
-  list1.append(x)
-
+    list1.append(x)
 print(list1)
 
-#extend
+# extend
 l2 = ["s", "a"]
 list1.extend(l2)
 print(list1)
 
 nElements = list1.count("a")
 print(nElements)
-
-
-
