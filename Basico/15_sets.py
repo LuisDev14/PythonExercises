@@ -48,3 +48,12 @@ print(thisset8)
 thisset9 = {"apple", "banana", "cherry"}
 del thisset9
 #print(thisset9)
+
+estudiantes = [("Juan", 15, 9), ("María", 14, 8), ("Pedro", 16, 10), ("Ana", 15, 9), ("Luis", 14, 8)]
+
+# Ordenar por grado y luego por edad
+estudiantes_ordenados = sorted(estudiantes, key=lambda x: (x[2], x[1]))
+
+# Imprimir la lista de estudiantes ordenados
+for estudiante in estudiantes_ordenados:
+    print(f"Nombre: {estudiante[0]}, Edad: {estudiante[1]}, Grado: {estudiante[2]}")
